@@ -1,54 +1,42 @@
 html, body {
-    padding-bottom: 5000px;
+    padding: 0px 0px 5000px 0px;
 }
 
 #mainTitle {
-    text-align: center;
     font-family: 'courier new';
     font-size: 50px;
     text-shadow: 0px 0px 15px orange;
     color: orange;
-    margin-top: 50px;
+    text-align: center;
+    margin: 50px;
 }
 
 .mainSection {
     box-shadow: 0px 0px 10px yellow;
     border: 2px orange solid;
-    margin-top: 50px;
     border-radius: 4%;
 }
 
 .skill1 {
-    width: 16.84%;
-    height: 198px;
-    display: inline-block;
     box-shadow: 0px 0px 10px yellow;    
     border: 2px orange solid;
     border-radius: 6%;
-    margin: 10px 20px 0px 20px;
-}
-
-.skillicon {
-    margin-top: 55px;
-    height: 40%;
-    width: 100%;
+    margin: 30px 15px 0px 35px;
+    width: 100px;
+    height: 100px;
 }
 
 #skillsSlide, .skill1Slide {
-    height: 100%;
-    width: 100%;
     border-radius: 4%;
+    max-width: 89vh;
+    max-height: 74vh;
     padding: 0;
+    margin: 0;
 }
 
 #skillDemo {
-    width: auto;
-    height: auto;
-    margin: 100px 500px;
-}
-
-.skillItem {
-    list-style-type: none;
-    width: 50%;
-    height: 50%;
+    width: 90vh;
+    height: 75vh;
+    margin: 30px 200px 0px 15px;
+    padding: 0;
 }
