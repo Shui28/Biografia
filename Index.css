@@ -19,11 +19,19 @@ html, body {
 
 .skill1 {
     box-shadow: 0px 0px 10px yellow;    
-    border: 2px orange solid;
     border-radius: 6%;
     margin: 30px 15px 0px 35px;
     width: 100px;
     height: 100px;
+    border: 2px orange solid;
+}
+
+.btn:hover {
+    background-color: orange !important;
+}
+
+svg:hover {
+    fill: black;
 }
 
 #skillsSlide, .skill1Slide {
