@@ -1,5 +1,7 @@
 html, body {
-    padding: 0px 0px 5000px 0px;
+    padding: 0vh 0vh 50vh 0vh;
+	background-color: black;
+	color: black;
 }
 
 #mainTitle {
@@ -8,43 +10,18 @@ html, body {
     text-shadow: 0px 0px 15px orange;
     color: orange;
     text-align: center;
-    margin: 50px;
 }
 
-.mainSection {
-    box-shadow: 0px 0px 10px yellow;
-    border: 2px orange solid;
-    border-radius: 4%;
-}
-
-.skill1 {
-    box-shadow: 0px 0px 10px yellow;    
-    border-radius: 6%;
-    margin: 30px 15px 0px 35px;
+.btn {
     width: 100px;
-    height: 100px;
     border: 2px orange solid;
+	color: orange;
+	box-shadow: 0px 0px 5px #ffff4d;
+	margin: 7px;
 }
 
 .btn:hover {
-    background-color: orange !important;
-}
-
-svg:hover {
-    fill: black;
-}
-
-#skillsSlide, .skill1Slide {
-    border-radius: 4%;
-    max-width: 89vh;
-    max-height: 74vh;
-    padding: 0;
-    margin: 0;
-}
-
-#skillDemo {
-    width: 90vh;
-    height: 75vh;
-    margin: 30px 200px 0px 15px;
-    padding: 0;
+    background: linear-gradient(to top, #FFD700, #FFC300, #FFA500);
+	box-shadow: 0px 0px 10px red;
+	border: 2px orange solid;
 }
