@@ -1,27 +1,27 @@
 html, body {
-    padding: 0vh 0vh 50vh 0vh;
+ 	padding: 0vh 0vh 50vh 0vh;
 	background-color: black;
 	color: black;
 }
 
 #mainTitle {
-    font-family: 'courier new';
-    font-size: 50px;
-    text-shadow: 0px 0px 15px orange;
-    color: orange;
-    text-align: center;
+	font-family: 'courier new';
+	font-size: 50px;
+	text-shadow: 0px 0px 15px orange;
+	color: orange;
+	text-align: center;
 }
 
 .btn {
-    width: 100px;
-    border: 2px orange solid;
+        width: 100px;
+        border: 2px orange solid;
 	color: orange;
 	box-shadow: 0px 0px 5px #ffff4d;
 	margin: 7px;
 }
 
 .btn:hover {
-    background: linear-gradient(to top, #FFD700, #FFC300, #FFA500);
+        background: linear-gradient(to top, #FFD700, #FFC300, #FFA500);
 	box-shadow: 0px 0px 10px red;
 	border: 2px orange solid;
 }
